@@ -38,6 +38,7 @@ enum userspace_layers {
     _GAMEL3,
     _MMO,
     _MMOL2,
+    _GAMEBASIC,
     _NAVNUM,
     _SYM,
     _MCRO,
