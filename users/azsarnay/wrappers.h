@@ -75,9 +75,9 @@ NOTE: These are all the same length.  If you do a search/replace
 #define _________________ADJUST_L2_________________       RGB_MOD,  RGB_HUI, RGB_SAI, RGB_VAI,  RGB_SPI
 #define _________________ADJUST_L3_________________       RGB_RMOD, RGB_HUD, RGB_SAD, RGB_VAD,  RGB_SPD
 
-#define _________________ADJUST_R1_________________       KC_F12, KC_F7,  KC_F8,  KC_F9,  LCA(KC_1)
-#define _________________ADJUST_R2_________________       KC_F11, KC_F4,  KC_F5,  KC_F6,  LCA(KC_2)
-#define _________________ADJUST_R3_________________       KC_F10, KC_F1,  KC_F2,  KC_F3,  LCA(KC_3)
+#define _________________ADJUST_R1_________________       KC_F12, KC_F7,  KC_F8,  KC_F9,  LCA(KC_2)
+#define _________________ADJUST_R2_________________       KC_F11, KC_F4,  KC_F5,  KC_F6,  LCA(KC_3)
+#define _________________ADJUST_R3_________________       KC_F10, KC_F1,  KC_F2,  KC_F3,  LCA(KC_4)
 
 
 #define _________________SYM_L1____________________       KC_PERC,   KC_AMPR,  KC_CIRC,  KC_LCBR,  KC_LBRC
@@ -90,6 +90,17 @@ NOTE: These are all the same length.  If you do a search/replace
 #define _________________SYM_R2____________________       KC_MINS,  KC_RPRN, KC_COMM,  KC_DOT,   XXXXXXX
 #define _________________SYM_R3____________________       KC_UNDS,  KC_GT,   KC_DQUO,  KC_QUOT,  KC_PIPE
 #define _________________SYM_RT____________________       MCRO,    MCRO
+ 
+
+#define _________________BROWSER_L1________________       MAC_WIN_LEFT, MAC_WIN_RIGHT,    TAB_NEW,     TAB_REOP,      MAC_EXPOSE
+#define _________________BROWSER_L2________________       KC_F1,        TAB_BCK,          TAB_CLS,     TAB_FWD,       KC_F2
+#define _________________BROWSER_L3________________       KC_ESC,       KC_DOT,           MACTAB_CLS,  MAC_TAB_BCK,   MAC_TAB_FWD
+#define _________________BROWSER_LT________________       XXXXXXX,   XXXXXXX,   XXXXXXX
+
+#define _________________BROWSER_R1________________       KC_WH_U,  KC_BTN1,  KC_MS_U,  KC_BTN2,  XXXXXXX
+#define _________________BROWSER_R2________________       KC_WH_L,  KC_MS_L,  KC_MS_D,  KC_MS_R,  KC_WH_R
+#define _________________BROWSER_R3________________       KC_WH_D,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX
+#define _________________BROWSER_RT________________       LCA(KC_1),  MCRO
 
 
 #define __________________TOG_L1___________________       XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX
@@ -109,15 +120,6 @@ NOTE: These are all the same length.  If you do a search/replace
 #define _________________MCRO_R3___________________       KC_PIC,   KC_MACPIC,  KC_SEC7,     KC_SEC6,   KC_SEC3
 #define _________________MCRO_RT___________________       XXXXXXX,  XXXXXXX
 
-#define _________________BROWSER_L1________________       MAC_WIN_LEFT, MAC_WIN_RIGHT,    TAB_NEW,     TAB_REOP,      MAC_EXPOSE
-#define _________________BROWSER_L2________________       KC_F1,        TAB_BCK,          TAB_CLS,     TAB_FWD,       KC_F2
-#define _________________BROWSER_L3________________       KC_ESC,       KC_DOT,           MACTAB_CLS,  MAC_TAB_BCK,   MAC_TAB_FWD
-#define _________________BROWSER_LT________________       XXXXXXX,   XXXXXXX,   XXXXXXX
-
-#define _________________BROWSER_R1________________       KC_WH_U,  KC_BTN1,  KC_MS_U,  KC_BTN2,  XXXXXXX
-#define _________________BROWSER_R2________________       KC_WH_L,  KC_MS_L,  KC_MS_D,  KC_MS_R,  KC_WH_R
-#define _________________BROWSER_R3________________       KC_WH_D,  XXXXXXX,  XXXXXXX,  XXXXXXX,  XXXXXXX
-#define _________________BROWSER_RT________________       MCRO,  MCRO
 
 
 #define _________________POINTER_L1________________        KC_BSPC, KC_CPY,  KC_SPC, KC_PST,  KC_LCTL
@@ -171,7 +173,7 @@ NOTE: These are all the same length.  If you do a search/replace
 
 //////////////////////////////////////////////////////////////////////////
 #define ___________________GAME_L1_________________        KC_TAB,        KC_B,  KC_W,  KC_R,    KC_T
-#define ___________________GAME_L2_________________        KC_ESC,        KC_A,  KC_S,  KC_D,    KC_E
+#define ___________________GAME_L2_________________        SNIPING,        KC_A,  KC_S,  KC_D,    KC_E
 #define ___________________GAME_L3_________________        LALT_T(KC_ENT), KC_1,  KC_2,  KC_LSFT, KC_F
 #define ___________________GAME_LT_________________        KC_C, KC_SPC, KC_RCTL
 
