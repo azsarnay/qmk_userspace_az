@@ -22,6 +22,7 @@
 /* Set Polling rate to 1000Hz */
 #define USB_POLLING_INTERVAL_MS 1
 
+#define CHARYBDIS_DRAGSCROLL_REVERSE_X
 // Quick reset for Splinky board
 // #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET
 // #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 250U

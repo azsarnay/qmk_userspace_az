@@ -30,6 +30,8 @@ enum userspace_custom_keycodes {
     GAMEL3,
     MMO,
     MMOL2,
+    WOW,
+    WOWL2,
     GAMEBASIC,
     KC_MAKE,                        // Run keyboard's customized make command
     KC_RGB_T,                       // Toggles RGB Layer Indication mode
@@ -135,6 +137,7 @@ bool process_record_keymap(uint16_t keycode, keyrecord_t *record);
 #define NUMGAME DF(_NUMGAME)
 #define GAME DF(_GAME)
 #define MMO DF(_MMO)
+#define WOW DF(_WOW)
 #define GAMEBASIC DF(_GAMEBASIC)
 #define POINTER DF(_POINTER)
 #define MOUSEP DF(_MOUSEP)

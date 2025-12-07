@@ -34,3 +34,5 @@ ifeq ($(strip $(PROTOCOL)), VUSB)
     NKRO_ENABLE       = no
 endif
 
+# PATH  +=  keyboards/gboards/
+# COMBO_ENABLE=yes

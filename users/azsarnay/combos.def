@@ -1,0 +1,4 @@
+
+COMB(SEC_combo,   MO(_SEC),   KC_B, KC_Q)
+SUBS(TH_THE,   "the",    KC_T, KC_H)
+
